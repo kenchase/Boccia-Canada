@@ -1,0 +1,67 @@
+/*!
+Theme Name: Boccia Canada 2021
+Theme URI: https://bocciacanada.ca/
+Version: 1.0
+Description: The 2021 Boccia Canada WordPress theme. A Beaver Builder Child Theme.
+Author: Ken Chase
+Author URI: https://kenchase.com/
+template: bb-theme
+*/
+
+/* Beaver Builder Styles 
+ * - See WP Customizer for global styles 
+ * - See WP Customizer for header styles
+ * - See WP Customizer for button styles
+ */
+
+@import 'variables-site/variables-site';
+@import 'plugins/plugins';
+@import 'includes/includes';
+
+/* Global Styles */
+@at-root body {
+  p,
+  ul {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* Custom Styles */
+
+.row-ccpsa-top-header {
+  // border-bottom: 1px solid $color__logo-dark;
+
+  .fl-search-form-inline .fl-form-field {
+    padding-right: 0;
+  }
+}
+
+// Main Header - Nav
+
+body {
+  .row-ccpsa-main-header {
+    border-bottom: 10px solid $color__logo-dark;
+
+    .fl-menu {
+      .ccpsa-main-nav-btn {
+        border: 1px solid $color__logo-dark;
+        border-radius: 4px;
+        margin-left: 1.5rem;
+      }
+    }
+
+    .menu .fl-has-submenu .sub-menu {
+      font-size: 1.125rem;
+    }
+  }
+}
+
+// Rows and Modules
+
+.ccpsa-row-banner {
+  background-color: #edf6fb;
+
+  .fl-row-content-wrap {
+    background-position: center !important;
+  }
+}

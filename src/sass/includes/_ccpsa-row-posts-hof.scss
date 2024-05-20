@@ -1,0 +1,71 @@
+.ccpsa-row-posts-hof {
+  .ccpsa-mod-posts-hof {
+    .ccpsa-post-hof {
+      padding: 2em 1.5em;
+      &:nth-child(odd) {
+        background-color: $color__grey_light;
+      }
+      .fl-post-feed-image {
+        box-shadow: 0px 5px 58px -6px rgba(50, 50, 93, 0.25);
+        img {
+          border-radius: 3px;
+        }
+      }
+
+      .fl-post-feed-text {
+        width: 100%;
+        .fl-post-feed-meta {
+          .list {
+            font-size: 1.125rem;
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+            .list-item {
+              margin: 0;
+            }
+          }
+        }
+
+        .fl-post-feed-more {
+          display: block;
+          font-weight: 400;
+          text-align: right;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .ccpsa-mod-posts-hof {
+      .ccpsa-post-hof {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2.5rem;
+        .fl-post-feed-image {
+          background-color: $color__background-grey-light;
+          margin-bottom: 1.25rem;
+          padding: 1.25rem;
+          img {
+            max-width: 500px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-mobile + 1px) {
+    .ccpsa-mod-posts-hof {
+      .ccpsa-post-hof {
+        display: flex;
+        padding-bottom: 2.5rem;
+        .fl-post-feed-text {
+          margin-left: 1.5rem;
+        }
+        .fl-post-feed-image {
+          flex: 0 0 300px;
+          margin-bottom: 1.25rem;
+        }
+      }
+    }
+  }
+}

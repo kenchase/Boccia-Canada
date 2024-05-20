@@ -1,0 +1,33 @@
+.ccpsa-row-posts-staff {
+  .ccpsa-mod-posts-staff {
+    .fl-post-image {
+      margin: 0;
+    }
+
+    .fl-post-text {
+      .fl-post-title {
+        font-size: 2em;
+      }
+      .list {
+        font-size: 1.125rem;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        .list-item {
+          margin: 0;
+        }
+      }
+    }
+    @media screen and (max-width: $size_bb-site-mobile) {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      .ccpsa-post-staff {
+      }
+    }
+    @media screen and (min-width: $size_bb-site-mobile + 1px) {
+      .ccpsa-post-staff {
+      }
+    }
+  }
+}

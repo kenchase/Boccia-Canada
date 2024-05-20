@@ -1,0 +1,29 @@
+.ccpsa-row-home-img-grid {
+  .ccpsa-col-home-img-grid {
+    .fl-col-content {
+      &:hover:after {
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: $transition__btn_bg;
+      }
+      &:hover {
+        .ccpsa-mod-heading {
+          .fl-heading {
+            .fl-heading-text {
+              color: $color__grey_light !important;
+            }
+          }
+        }
+      }
+    }
+    .ccpsa-col-home-img-grid:hover {
+    }
+  }
+  @media screen and (max-width: $size_bb-site-mobile) {
+  }
+
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
+  }
+
+  @media screen and (min-width: $size_bb-site-medium+1) {
+  }
+}

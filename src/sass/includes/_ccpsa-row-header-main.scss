@@ -1,0 +1,36 @@
+.ccpsa-row-header-main {
+  @media screen and (max-width: $size_bb-site-mobile) {
+  }
+
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
+  }
+
+  @media screen and (min-width: $size_bb-site-medium+1) {
+    .ccpsa-mod-header-main-logo {
+      position: absolute;
+      top: -4px;
+      left: 0;
+      z-index: 998;
+      a {
+        background-color: transparent;
+        // box-shadow: 0px 10px 20px -4px rgba(50, 50, 93, 0.5);
+        display: block;
+        img {
+          display: inline-block;
+          // padding: 20px;
+        }
+      }
+    }
+    .ccpsa-mod-header-main-nav {
+      z-index: 999;
+
+      .menu {
+        .menu-item:last-child {
+          a {
+            padding-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

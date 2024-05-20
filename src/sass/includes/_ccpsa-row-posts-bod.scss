@@ -1,0 +1,34 @@
+.ccpsa-row-posts-bod {
+  .ccpsa-mod-posts-bod {
+    .ccpsa-post-bod {
+      .fl-post-image {
+        margin: 0;
+      }
+      .fl-post-text {
+        .fl-post-title {
+          font-size: 2em;
+        }
+        .fl-post-role {
+          font-size: 1.25em;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .ccpsa-mod-posts-bod {
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      .ccpsa-bod-post {
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-mobile + 1px) {
+    .ccpsa-mod-posts-bod {
+      .ccpsa-bod-post {
+      }
+    }
+  }
+}

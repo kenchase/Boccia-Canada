@@ -1,0 +1,13 @@
+.ccpsa-row-footer-bottom {
+  p {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: $size_bb-site-mobile) {
+  }
+
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
+  }
+
+  @media screen and (min-width: $size_bb-site-medium+1) {
+  }
+}

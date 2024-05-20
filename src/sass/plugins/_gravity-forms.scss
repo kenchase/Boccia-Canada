@@ -1,0 +1,61 @@
+/* Gravity Forms Styles */
+
+.ccpsa-gf_wrapper {
+  .gform_validation_errors {
+    box-shadow: none;
+    margin: 10px 0 20px 0;
+    .gform_submission_error {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .gform_body {
+    .gfield_label {
+      font-size: 1.125rem;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    .validation_message {
+      display: none;
+    }
+  }
+  .gform_footer {
+    text-align: right;
+    .gform_button {
+      border-radius: 4px;
+      color: $color__light !important;
+      font-size: 18px;
+      line-height: 1.5em;
+      padding: 12px 24px;
+      text-transform: uppercase;
+      .fl-button-icon {
+        display: inline-block;
+        margin-left: 8px;
+      }
+    }
+    img.gform_ajax_spinner {
+      display: none;
+    }
+  }
+  &.gravity-theme {
+    input[type='color'],
+    input[type='date'],
+    input[type='datetime-local'],
+    input[type='datetime'],
+    input[type='email'],
+    input[type='month'],
+    input[type='number'],
+    input[type='password'],
+    input[type='search'],
+    input[type='tel'],
+    input[type='text'],
+    input[type='time'],
+    input[type='url'],
+    input[type='week'],
+    select,
+    textarea {
+      font-size: 16px;
+    }
+  }
+}

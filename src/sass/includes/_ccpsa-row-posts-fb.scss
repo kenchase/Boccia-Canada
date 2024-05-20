@@ -1,0 +1,33 @@
+.ccpsa-row-fb-posts {
+  #cff {
+    &.ccpsa-fb-feed {
+      .cff-item.cff-box {
+        padding: 1.5em;
+      }
+      .cff-view-comments-wrap {
+        display: none;
+      }
+      .cff-post-links {
+        text-transform: uppercase;
+        a {
+          &::after {
+            content: ' \e97e';
+            color: $color__link;
+            font-family: 'Ultimate-Icons' !important;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+          }
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

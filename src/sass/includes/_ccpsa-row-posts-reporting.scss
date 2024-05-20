@@ -1,0 +1,21 @@
+.ccpsa-row-posts-reporting {
+  .ccsa-reports-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 1.5em;
+    .list-item {
+      .far {
+        display: inline-block;
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  @media screen and (max-width: $size_bb-site-mobile) {
+  }
+  @media screen and (min-width: $size_bb-site-mobile + 1px) {
+    .ccsa-reports-list {
+      columns: 2;
+    }
+  }
+}

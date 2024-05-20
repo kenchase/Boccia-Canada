@@ -1,0 +1,77 @@
+$hero__arrow-size: 30px;
+$hero__arrow-position: 60px;
+$hero__arrow-size-med: 30px;
+$hero__arrow-position-med: 60px;
+
+.ccpsa-row-hero-banner-home {
+  // Prev and Next Arrows
+  .ccpsa-mod-hero-banner {
+    .uabb-image-carousel {
+      margin: 0;
+      .uabb-image-carousel-item {
+        padding: 0;
+      }
+      .slick-prev,
+      .slick-next {
+        i {
+          padding: 10px;
+          background-color: rgba(255, 255, 255, 0.15);
+          transition: $transition__btn_bg;
+          &:hover,
+          &:focus {
+            background-color: rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+      .slick-prev {
+        left: $hero__arrow-position;
+        .fa-angle-left::before {
+          font-family: 'Ultimate-Icons' !important;
+          content: '\e97c';
+        }
+      }
+      .slick-next {
+        right: $hero__arrow-position;
+        .fa-angle-right::before {
+          font-family: 'Ultimate-Icons' !important;
+          content: '\e97e';
+        }
+      }
+    }
+    .uabb-image-carousel-content {
+      .uabb-image-carousel-caption {
+      }
+      .uabb-image-carousel-caption-hover {
+      }
+    }
+  }
+
+  @media screen and (max-width: $size_bb-site-mobile) {
+  }
+
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
+  }
+
+  @media screen and (max-width: $size_bb-site-medium) {
+    .uabb-image-carousel {
+      .slick-prev,
+      .slick-next {
+        display: none !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: $size_bb-site-medium+1) {
+    .uabb-image-carousel {
+      .slick-prev,
+      .slick-next {
+        i {
+          font-size: $hero__arrow-size;
+          width: $hero__arrow-size;
+          height: $hero__arrow-size;
+          line-height: $hero__arrow-size;
+        }
+      }
+    }
+  }
+}

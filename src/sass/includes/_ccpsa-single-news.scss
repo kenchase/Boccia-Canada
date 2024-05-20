@@ -1,0 +1,41 @@
+.single-news {
+  .fl-page-content {
+    .ccpsa-page-heading {
+      .fl-heading {
+      }
+    }
+  }
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .fl-page-content {
+      .ccpsa-page-heading {
+        .fl-heading {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-large) {
+    .fl-page-content {
+      .ccpsa-page-heading {
+        .fl-heading {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-large+1) {
+    .fl-page-content {
+      .ccpsa-page-heading {
+        .fl-heading {
+          font-size: 40px;
+        }
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      h3 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

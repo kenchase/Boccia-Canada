@@ -1,0 +1,42 @@
+.ccpsa-row-posts-search-results {
+  .ccpsa-mod-posts-search-results {
+    .ccpsa-post-search-results {
+      padding-bottom: 40px;
+      padding: 2em 1.5em;
+      &:nth-child(odd) {
+        background-color: $color__grey_light;
+      }
+
+      .fl-post-feed-text {
+        .fl-post-feed-title {
+          margin-bottom: 0.5rem;
+        }
+
+        .fl-post-feed-meta {
+          font-size: 1.125rem;
+          margin-bottom: 0.625rem;
+        }
+
+        .fl-post-feed-content {
+        }
+      }
+
+      .fl-post-feed-more {
+        display: block;
+        margin-top: 1.25rem;
+        font-weight: 400;
+        text-align: right;
+        text-transform: uppercase;
+      }
+    }
+  }
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .ccpsa-mod-posts-search-results {
+      .ccpsa-post-search-results {
+        max-width: 100%;
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-mobile + 1px) {
+  }
+}

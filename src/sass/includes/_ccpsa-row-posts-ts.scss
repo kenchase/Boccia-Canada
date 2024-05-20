@@ -1,0 +1,39 @@
+.ccpsa-row-posts-ts {
+  .ccpsa-mod-posts-ts {
+    .ccpsa-post-ts {
+      .fl-post-image {
+        margin: 0;
+      }
+      .fl-post-text {
+        .fl-post-title {
+          font-size: 2em;
+        }
+        .fl-post-text-list {
+          font-size: 1.125rem;
+          list-style: none;
+          margin-left: 0;
+          padding-left: 0;
+          .fl-post-text-list-item {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .ccpsa-mod-posts-ts {
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      .ccpsa-bod-post {
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-mobile + 1px) {
+    .ccpsa-mod-posts-ts {
+      .ccpsa-bod-ts {
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.ccpsa-row-contact-detail {
+  .ccpsa-col-contact-address {
+    .ccpsa-mod-address {
+    }
+  }
+  .ccpsa-col-contact-staff {
+    .ccpsa-mod-posts-staff {
+      .ccpsa-post-staff {
+        .list {
+          font-size: 16px;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          .list-item {
+            margin-bottom: 0.25rem;
+          }
+        }
+      }
+      @media screen and (max-width: $size_bb-site-mobile) {
+      }
+
+      @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
+      }
+
+      @media screen and (min-width: $size_bb-site-medium+1) {
+        .fl-post-feed {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .ccpsa-post-staff {
+          flex: 0 0 50%;
+          &:last-child {
+            border-bottom: 1px solid #e6e6e6;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.ccpsa-row-posts-news {
+  .ccpsa-mod-posts-news {
+    .ccpsa-post-news {
+      padding-bottom: 40px;
+      padding: 2em 1.5em;
+      &:nth-child(odd) {
+        background-color: $color__background-baby-blue-light;
+      }
+
+      .fl-post-feed-image {
+        a {
+          display: block;
+        }
+      }
+
+      .fl-post-feed-text {
+        .fl-post-feed-title {
+          margin-bottom: 0.5rem;
+        }
+
+        .fl-post-feed-meta {
+          font-size: 1.125rem;
+          margin-bottom: 0.625rem;
+        }
+
+        .fl-post-feed-content {
+        }
+      }
+
+      .fl-post-feed-more {
+        display: block;
+        margin-top: 1.25rem;
+        font-weight: 400;
+        text-align: right;
+        text-transform: uppercase;
+      }
+    }
+  }
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .ccpsa-mod-posts-news {
+      .ccpsa-post-news {
+        max-width: 100%;
+        .fl-post-feed-image {
+          display: none;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $size_bb-site-mobile + 1px) {
+    .ccpsa-mod-posts-news {
+      .ccpsa-post-news {
+        display: flex;
+        padding-bottom: 40px;
+        .fl-post-feed-image {
+          flex: 0 0 360px;
+          align-self: flex-start;
+          box-shadow: 0px 5px 58px -6px rgba(50, 50, 93, 0.25);
+          margin-right: 1.5em;
+        }
+        .fl-post-feed-text {
+          flex: 1 1 auto;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

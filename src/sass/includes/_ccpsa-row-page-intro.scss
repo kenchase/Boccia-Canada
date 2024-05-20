@@ -1,0 +1,45 @@
+.ccpsa-row-page-intro {
+  .fl-row-content-wrap {
+  }
+  .ccpsa-mod-heading {
+  }
+  .ccpsa-mod-text-editor {
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  .ccpsa-mod-button {
+  }
+
+  @media screen and (max-width: $size_bb-site-mobile) {
+    .ccpsa-mod-heading {
+      .fl-heading {
+        font-size: 30px;
+      }
+    }
+    .ccpsa-mod-text-editor {
+    }
+    .ccpsa-mod-button {
+    }
+  }
+
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-large) {
+    .ccpsa-mod-heading {
+      .fl-heading {
+        font-size: 40px;
+      }
+    }
+    .ccpsa-mod-text-editor {
+    }
+    .ccpsa-mod-button {
+    }
+  }
+
+  @media screen and (min-width: $size_bb-site-large+1) {
+    .ccpsa-mod-heading {
+      .fl-heading {
+        font-size: 54px;
+      }
+    }
+  }
+}
