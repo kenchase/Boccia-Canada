@@ -163,7 +163,6 @@ template: bb-theme
     padding: 0;
     height: 48px;
     width: 48px;
-    z-index: 101;
   }
   .ccpsa-main-nav-wrap .ccpsa-main-nav-button:focus-visible {
     outline: 2px solid #fff;
@@ -195,7 +194,12 @@ template: bb-theme
     height: 100%;
     padding: 20px;
     background-color: #fff;
-    z-index: 99;
+    z-index: 100;
+  }
+  .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav-button {
+    position: fixed;
+    z-index: 101;
+    top: 20px;
   }
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav {
     display: block;
@@ -268,7 +272,7 @@ template: bb-theme
     position: absolute;
     top: 100%;
     left: 0;
-    z-index: 16;
+    z-index: 99;
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
     text-align: left;
     transition: all 300ms ease-in;
