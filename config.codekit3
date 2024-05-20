@@ -129,14 +129,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/single-mec-events.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/single-mec-events.php",
-      "oF" : 0
-    },
     "\/src\/js\/ccpsa-scripts.js" : {
       "bF" : 0,
       "ft" : 64,
