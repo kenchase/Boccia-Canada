@@ -5,6 +5,7 @@
 
 @media only screen and (max-width: 992px) {
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav a {
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 0;
   }
