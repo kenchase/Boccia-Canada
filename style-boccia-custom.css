@@ -1,0 +1,28 @@
+.ccpsa-row-header-main .ccpsa-mod-header-main-logo a {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav a {
+    font-weight: bold;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .ccpsa-main-nav-wrap .ccpsa-main-nav .menu {
+    gap: 16px;
+  }
+  .ccpsa-main-nav-wrap .ccpsa-main-nav .menu > li > a {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .ccpsa-row-header-main .ccpsa-mod-header-main-logo a img {
+    padding: 0;
+  }
+  .ccpsa-main-nav-wrap .ccpsa-main-nav .menu > li > a {
+    font-size: 1rem;
+  }
+}

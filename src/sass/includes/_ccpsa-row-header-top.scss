@@ -1,70 +1,95 @@
 .ccpsa-row-header-top {
-  .ccpsa-mod-header-top-social-icons {
-    padding: 10px 0;
+  .fl-icon-group {
+    display: flex;
+    .fl-icon {
+      a {
+        display: block;
+        height: 46px;
+        width: 46px;
+        &:focus-visible {
+          outline: 3px solid white;
+          box-shadow: 0 0 0 6px black;
+        }
+      }
+      i {
+        float: none;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 
+  // utility icons and text
   .ccpsa-mod-header-top-utils {
+    padding-right: 24px;
     .fl-col-group-nested {
       width: auto;
       margin-left: auto !important;
     }
-
+    // search
     .ccpsa-col-header-top-search {
       width: auto;
       flex: 0 0 auto !important;
-
       .ccpsa-mod-header-top-search {
         .uabb-creative-button-wrap {
           a {
             padding: 10px;
             border-radius: 0;
+            &:focus-visible {
+              outline: 3px solid white;
+              box-shadow: 0 0 0 6px black;
+            }
           }
         }
         .uabb-search-form {
           &.search-active {
-            border: 10px solid red;
             position: absolute;
             top: -999px;
           }
         }
       }
     }
+    // mail
     .ccpsa-col-header-top-util-icons {
       width: auto;
-      flex: 0 0 auto;
-      .fl-icon {
-        padding: 10px;
-        margin: 0;
+      margin-left: 6px;
+      a {
+        &:focus-visible {
+          outline: 3px solid white;
+          box-shadow: 0 0 0 6px black;
+        }
       }
     }
+    // lang toggle
     .ccpsa-col-header-top-lang-toggle {
-      width: auto;
+      width: auto !important;
       flex: 0 0 auto;
+      margin-left: 6px;
       .ccpsa-mod-header-top-lang-toggle {
-        font-weight: 400;
-        padding: 0 20px 0 0;
-        text-align: right;
         .wpml-ls {
           border: none;
           padding: 0;
         }
         .wpml-ls-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 46px;
           color: $color__logo-dark;
-          padding: 10px 0 10px 20px;
+          font-weight: 400;
+          padding: 0 6px;
           &:hover {
-            color: $color__link_hover-dark;
+            color: $color__logo-red;
+          }
+          &:focus-visible {
+            outline: 3px solid white;
+            box-shadow: 0 0 0 6px black;
           }
         }
       }
     }
-  }
-
-  @media screen and (max-width: $size_bb-site-mobile) {
-  }
-
-  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
-  }
-
-  @media screen and (min-width: $size_bb-site-medium+1) {
   }
 }

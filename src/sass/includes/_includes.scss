@@ -1,6 +1,9 @@
 // Global
 @import 'ccpsa-global';
 
+// Main Nav
+@import 'ccpsa-main-nav';
+
 // Single News
 @import 'ccpsa-single-news';
 
@@ -34,7 +37,6 @@
 // Single Post Rows
 @import 'ccpsa-row-post-hof';
 @import 'ccpsa-row-post-news';
-@import 'ccpsa-row-post-ts';
 
 // Misc. Global Rows
 @import 'ccpsa-row-global-newsletter-cta';

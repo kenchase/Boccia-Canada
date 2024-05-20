@@ -27,29 +27,3 @@
        }
        return $bytes;
 }
-// Set the staus of an event post type to "draft" if the events end date is in the past
-function ccpsa_update_event_status()
-{
-    // Query for events that are published and have an end date before the current day.
-    $today = date('Ymd');
-    $args = array (
-        'post_type' => 'event',
-        'post_status' => 'publish',
-        'meta_query' => array(
-            array(
-                'key'		=> 'acf_event_end_date',
-                'compare'	=> '<',
-                'value'		=> $today,
-            )
-        ),
-    );
-    $past_events = get_posts($args);
-    // Loop through past events and set their status to draft
-    foreach ( $past_events as $post ) {
-        wp_update_post(array(
-            'ID'            =>  $post->ID,
-            'post_status'   =>  'draft'
-        ));
-    }
-}
-add_action( 'ccpsa_update_event_status_init', 'ccpsa_update_event_status' );

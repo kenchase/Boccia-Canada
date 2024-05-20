@@ -1,0 +1,178 @@
+.ccpsa-main-nav-wrap {
+  .ccpsa-main-nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      display: block;
+      color: $color__main-nav-link;
+      font-size: 2.5rem;
+      transition: 300ms linear;
+      &:hover {
+        color: $color__accent-color;
+      }
+    }
+    .menu {
+      display: flex;
+    }
+  }
+  .ccpsa-main-nav-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $size_bb-site-mobile) {
+  .ccpsa-main-nav-wrap {
+    flex-direction: column;
+    .ccpsa-main-nav-button {
+      align-self: flex-end;
+      display: block;
+      border: none;
+      background-color: transparent;
+      color: $color__dark;
+      padding: 0;
+      height: 48px;
+      width: 48px;
+      z-index: 101;
+      &:focus-visible {
+        outline: 2px solid $color__light;
+        box-shadow: 0 0 0 6px $color__dark;
+      }
+      &:hover {
+        border: none;
+        background-color: transparent;
+        color: $color__accent-color;
+      }
+      i {
+        font-size: 3rem;
+      }
+    }
+    .site-header-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      .ccpsa-main-nav {
+        display: none;
+      }
+      &.toggled-on {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        padding: 20px;
+        background-color: $color__light;
+        z-index: 99;
+        .ccpsa-main-nav {
+          display: block;
+          height: 100vh;
+          a {
+            font-weight: bold;
+
+            padding: 8px;
+            &:focus-visible {
+              outline: 2px solid $color__light;
+              box-shadow: 0 0 0 6px $color__dark;
+            }
+          }
+          .menu {
+            gap: 8px;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .dropdown-toggle {
+              display: none;
+            }
+            .sub-menu {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $size_bb-site-mobile-plus) {
+  .ccpsa-main-nav-wrap {
+    .ccpsa-main-nav {
+      .menu {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 24px;
+        & > li {
+          display: flex;
+          align-items: stretch;
+          gap: 4px;
+          position: relative;
+
+          & > a {
+            font-size: 1.5rem;
+            font-weight: normal;
+            line-height: 1;
+            padding: 20px 4px;
+            &:focus-visible {
+              outline: 2px solid $color__light;
+              box-shadow: 0 0 0 6px $color__dark;
+            }
+          }
+        }
+        .dropdown-toggle {
+          background: none;
+          border: none;
+          border-radius: 0;
+          padding: 0 4px;
+          line-height: 1;
+          &::after {
+            font: var(--fa-font-solid);
+            content: '\f0d7';
+            color: #000;
+          }
+          &:focus-visible {
+            outline: 2px solid $color__light;
+            box-shadow: 0 0 0 6px $color__dark;
+          }
+        }
+      }
+
+      .sub-menu {
+        display: none;
+        min-width: 220px;
+        border: 1px solid #e6e6e6;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 16;
+        box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
+        // opacity: 0;
+        text-align: left;
+        transition: all 300ms ease-in;
+        li {
+          border-bottom: 1px solid #e3e2e3;
+        }
+        a {
+          display: block;
+          font-size: 1rem;
+          background-color: $color__light;
+          color: #231f20;
+          padding: 15px;
+          &:hover {
+            color: #36618c;
+          }
+        }
+      }
+
+      & > ul li:hover .sub-menu {
+        display: block;
+      }
+      .sub-menu.toggled-on {
+        display: block;
+      }
+    }
+  }
+}

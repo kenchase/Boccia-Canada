@@ -1,13 +1,9 @@
 .ccpsa-row-posts-events {
   .ccpsa-mod-posts-events {
     .ccpsa-post-event {
-      padding: 2em 1.5em 1em 1.5em;
-
-      &:nth-child(2n + 1) {
-        background-color: rgba(237, 246, 251, 0.25);
-      }
+      margin-bottom: 1.5em;
+      padding-bottom: 1em;
       .fl-post-feed-title {
-        font-size: 1.625rem;
       }
       .fl-post-feed-meta {
         font-size: 1em;
@@ -18,12 +14,6 @@
         }
         .list-item {
           margin: 0;
-          b {
-            display: inline-block;
-            // text-transform: uppercase;
-            font-weight: 600;
-            // font-size: 0.875em;
-          }
         }
       }
 
@@ -31,8 +21,6 @@
         .section {
           .section-title {
             font-size: 1em;
-            font-family: $font__main;
-            letter-spacing: normal;
             margin-bottom: 0.25em;
           }
         }
@@ -45,9 +33,6 @@
   @media screen and (min-width: $size_bb-site-mobile+1) {
     .ccpsa-mod-posts-events {
       .ccpsa-post-event {
-        .event-content-wrap {
-          margin: 1rem 0 0 1rem;
-        }
         .section-wrap {
           display: flex;
           flex-wrap: wrap;

@@ -4,10 +4,10 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "52A7EDAD-75D6-4B1E-92E1-0F6097EF7F0E"
+      "uuidString" : "F8C6CE1A-17CB-4447-8888-E5D009A43B67"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34564",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -25,16 +25,24 @@
       "oAP" : "\/classes\/class-fl-child-theme.php",
       "oF" : 0
     },
-    "\/dist\/js\/ccpsa-scripts-min-min.js" : {
+    "\/dist\/js\/ccpsa-scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/js\/ccpsa-scripts-min-min-min.js",
+      "oAP" : "\/dist\/js\/ccpsa-scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dist\/js\/ccpsa-scripts-min.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/ccpsa-scripts-min.js.map",
+      "oF" : 0
     },
     "\/functions.php" : {
       "cB" : 0,
@@ -108,31 +116,9 @@
       "oAP" : "\/includes\/tpl-ccpsa-search-results-docs.php",
       "oF" : 0
     },
-    "\/js\/ccpsa-menubar-navigation-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/ccpsa-menubar-navigation-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/ccpsa-scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/ccpsa-scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/screenshot.png" : {
       "ft" : 32768,
-      "iS" : 28813,
+      "iS" : 12653,
       "oA" : 0,
       "oAP" : "\/screenshot.png",
       "oF" : 0,
@@ -143,24 +129,13 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/src\/js\/ccpsa-menubar-navigation.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/ccpsa-menubar-navigation-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/src\/js\/ccpsa-scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/js\/ccpsa-scripts-min.js",
+      "oAP" : "\/src\/js\/ccpsa-scripts-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -175,21 +150,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/_ccpsa-global.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/src\/sass\/includes\/_ccpsa-main-nav.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-main-nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -720,18 +680,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/style-boccia-custom.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/style-boccia-custom-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -760,10 +708,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 705070457.29926896,
-    "displayValue" : "boccia-canada",
-    "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-unblue",
+    "creationDate" : 705339950.00760996,
+    "displayValue" : "ccpsa",
+    "displayValueWasSetByUser" : 1,
+    "iconImageName" : "brackets-payne",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -2097,10 +2045,10 @@
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*-min.js",
-      "autoOutputPathRelativePath" : "\/js\/",
+      "autoOutputPathRelativePath" : "\/min",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 1,
+      "autoOutputPathStyle" : 0,
       "bundleFormat" : 0,
       "minifierStyle" : 1,
       "sourceMapStyle" : 0,

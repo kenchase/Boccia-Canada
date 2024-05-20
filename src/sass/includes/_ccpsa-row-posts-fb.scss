@@ -1,7 +1,11 @@
 .ccpsa-row-fb-posts {
   #cff {
-    &.ccpsa-fb-feed {
-      .cff-item.cff-box {
+    &.cff-theme-default_theme {
+      .cff-item {
+        background-color: #fff;
+        border-bottom: none !important;
+        border-radius: 6px;
+        margin: 8px;
         padding: 1.5em;
       }
       .cff-view-comments-wrap {
@@ -10,11 +14,13 @@
       .cff-post-links {
         text-transform: uppercase;
         a {
+          font-size: 18px;
           &::after {
             content: ' \e97e';
             color: $color__link;
             font-family: 'Ultimate-Icons' !important;
             font-size: 18px;
+            speak: none;
             font-style: normal;
             font-weight: normal;
             font-variant: normal;
@@ -29,5 +35,25 @@
         }
       }
     }
+  }
+  @media screen and (max-width: $size_bb-site-mobile) {
+    #cff {
+      &.cff-theme-default_theme {
+        .cff-post-links {
+          a {
+            font-size: 16px;
+            &::after {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: $size_bb-site-mobile+1) and (max-width: $size_bb-site-medium) {
+  }
+
+  @media screen and (min-width: $size_bb-site-medium+1) {
   }
 }
