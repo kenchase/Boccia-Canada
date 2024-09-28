@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
       this.classList.toggle('toggled-on');
       siteHeaderMenu.classList.toggle('toggled-on');
 
+      document.body.classList.toggle('menu-open');
+
       // Determine and set the new expanded state for ARIA
       const isExpanded = this.getAttribute('aria-expanded') === 'true';
       const newExpandedState = isExpanded ? 'false' : 'true';

@@ -67,6 +67,10 @@ template: bb-theme
   font-size: 16px;
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .fl-page-content h1 a,
 .fl-page-content h2 a,
 .fl-page-content h3 a,
@@ -185,13 +189,13 @@ template: bb-theme
     display: none;
   }
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on {
+    position: fixed;
+    inset: 0;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100vw;
-    height: 100%;
+    min-height: 100%;
     padding: 20px;
     background-color: #fff;
     z-index: 100;
@@ -202,8 +206,9 @@ template: bb-theme
     top: 20px;
   }
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav {
+    position: static;
     display: block;
-    height: 100vh;
+    min-height: 100%;
   }
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav a {
     font-weight: bold;
@@ -215,16 +220,17 @@ template: bb-theme
   }
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav .menu {
     gap: 8px;
-    height: 100%;
+    padding: 40px 0 20px 0;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
   }
   .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav .menu .dropdown-toggle {
     display: none;
   }
-  .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav .menu .sub-menu {
-    display: none;
+  .ccpsa-main-nav-wrap .site-header-menu.toggled-on .ccpsa-main-nav .menu .sub-menu .menu-item a {
+    font-size: 1.25rem;
+    padding: 8px;
   }
 }
 @media only screen and (min-width: 993px) {
