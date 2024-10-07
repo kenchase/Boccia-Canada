@@ -115,14 +115,14 @@
         & > li {
           display: flex;
           align-items: stretch;
-          gap: 4px;
+          gap: 0px;
           position: relative;
 
           & > a {
             font-size: 1.5rem;
             font-weight: normal;
             line-height: 1;
-            padding: 20px 4px;
+            padding: 20px 2px;
             &:focus-visible {
               outline: 2px solid $color__light;
               box-shadow: 0 0 0 6px $color__dark;

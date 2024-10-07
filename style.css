@@ -242,14 +242,14 @@ body.menu-open {
   .ccpsa-main-nav-wrap .ccpsa-main-nav .menu > li {
     display: flex;
     align-items: stretch;
-    gap: 4px;
+    gap: 0px;
     position: relative;
   }
   .ccpsa-main-nav-wrap .ccpsa-main-nav .menu > li > a {
     font-size: 1.5rem;
     font-weight: normal;
     line-height: 1;
-    padding: 20px 4px;
+    padding: 20px 2px;
   }
   .ccpsa-main-nav-wrap .ccpsa-main-nav .menu > li > a:focus-visible {
     outline: 2px solid #fff;
