@@ -7,7 +7,7 @@
       "uuidString" : "52A7EDAD-75D6-4B1E-92E1-0F6097EF7F0E"
     }
   ],
-  "creatorBuild" : "34590",
+  "creatorBuild" : "34680",
   "files" : {
     "\/classes\/class-fl-child-theme.php" : {
       "cB" : 0,
@@ -23,7 +23,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/js\/ccpsa-scripts-min-min-min.js",
+      "oAP" : "\/dist\/js\/ccpsa-scripts-min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -141,7 +141,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/js\/ccpsa-menubar-navigation-min.js",
+      "oAP" : "\/src\/js\/ccpsa-menubar-navigation-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -152,7 +152,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/js\/ccpsa-scripts-min.js",
+      "oAP" : "\/src\/js\/ccpsa-scripts-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -161,556 +161,482 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-global.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-global.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-main-nav.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-main-nav.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-main-nav.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-contact-detail.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-contact-detail.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-contact-detail.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-contact-form.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-contact-form.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-contact-form.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-footer-bottom.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-footer-bottom.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-footer-bottom.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-footer-top.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-footer-top.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-footer-top.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-global-newsletter-cta.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-global-newsletter-cta.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-global-newsletter-cta.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-header-main.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-header-main.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-header-main.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-header-top.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-header-top.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-header-top.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-hero-banner-home.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-hero-banner-home.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-hero-banner-home.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-hero-banner.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-hero-banner.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-hero-banner.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-home-img-grid.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-home-img-grid.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-home-img-grid.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-page-intro.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-page-intro.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-page-intro.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-post-hof.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-post-hof.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-post-hof.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-post-news.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-post-news.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-post-news.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-bod.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-bod.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-bod.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-events.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-events.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-events.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-fb.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-fb.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-fb.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-hof.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-hof.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-hof.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-news.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-news.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-news.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-nsp-partners.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-nsp-partners.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-nsp-partners.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-provincial-partners.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-provincial-partners.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-provincial-partners.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-reporting.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-reporting.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-reporting.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-search-results.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-search-results.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-search-results.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-staff.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-staff.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-staff.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-posts-ts.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-posts-ts.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-posts-ts.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-row-tabs.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-row-tabs.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-row-tabs.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_ccpsa-single-news.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_ccpsa-single-news.css",
+      "oAP" : "\/src\/sass\/includes\/_ccpsa-single-news.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/includes\/_includes.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_includes.css",
+      "oAP" : "\/src\/sass\/includes\/_includes.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/plugins\/_gravity-forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_gravity-forms.css",
+      "oAP" : "\/src\/sass\/plugins\/_gravity-forms.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/plugins\/_plugins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_plugins.css",
+      "oAP" : "\/src\/sass\/plugins\/_plugins.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/style.css",
+      "oAP" : "\/src\/sass\/style.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/variables-site\/_breakpoints.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_breakpoints.css",
+      "oAP" : "\/src\/sass\/variables-site\/_breakpoints.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/variables-site\/_colors.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_colors.css",
+      "oAP" : "\/src\/sass\/variables-site\/_colors.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/variables-site\/_transitions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_transitions.css",
+      "oAP" : "\/src\/sass\/variables-site\/_transitions.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/variables-site\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_typography.css",
+      "oAP" : "\/src\/sass\/variables-site\/_typography.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/src\/sass\/variables-site\/_variables-site.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/_variables-site.css",
+      "oAP" : "\/src\/sass\/variables-site\/_variables-site.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/style-boccia-custom-min.css" : {
       "aP" : 1,
@@ -1380,7 +1306,7 @@
         "active" : 1
       },
       "no-constant-binary-expression" : {
-        "active" : 0
+        "active" : 1
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -1441,7 +1367,7 @@
         "active" : 1
       },
       "no-empty-static-block" : {
-        "active" : 0
+        "active" : 1
       },
       "no-eq-null" : {
         "active" : 0
@@ -1472,7 +1398,7 @@
         "optionString" : "'all'"
       },
       "no-extra-semi" : {
-        "active" : 1
+        "active" : 0
       },
       "no-fallthrough" : {
         "active" : 1,
@@ -1505,7 +1431,7 @@
         "active" : 0
       },
       "no-inner-declarations" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "'functions'"
       },
       "no-invalid-regexp" : {
@@ -1555,7 +1481,7 @@
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
       "no-mixed-spaces-and-tabs" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : ""
       },
       "no-multi-assign" : {
@@ -1586,10 +1512,10 @@
         "active" : 0
       },
       "no-new-native-nonconstructor" : {
-        "active" : 0
+        "active" : 1
       },
       "no-new-symbol" : {
-        "active" : 1
+        "active" : 0
       },
       "no-new-wrappers" : {
         "active" : 0
@@ -1754,11 +1680,11 @@
         "active" : 1
       },
       "no-unused-private-class-members" : {
-        "active" : 0
+        "active" : 1
       },
       "no-unused-vars" : {
         "active" : 1,
-        "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+        "optionString" : "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'all', 'ignoreRestSiblings': false}"
       },
       "no-use-before-define" : {
         "active" : 0,
@@ -1775,7 +1701,7 @@
       },
       "no-useless-computed-key" : {
         "active" : 0,
-        "optionString" : "{'enforceForClassMembers': false}"
+        "optionString" : "{'enforceForClassMembers': true}"
       },
       "no-useless-concat" : {
         "active" : 0
@@ -1944,7 +1870,7 @@
       },
       "sort-keys" : {
         "active" : 0,
-        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2, 'allowLineSeparatedGroups': false}"
+        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2, 'allowLineSeparatedGroups': false, 'ignoreComputedKeys': false}"
       },
       "sort-vars" : {
         "active" : 0,
@@ -2096,10 +2022,10 @@
     "languageDefaultsJS" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*-min.js",
-      "autoOutputPathRelativePath" : "..\/..\/js",
+      "autoOutputPathRelativePath" : "\/min",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
-      "autoOutputPathStyle" : 2,
+      "autoOutputPathStyle" : 0,
       "bundleFormat" : 0,
       "minifierStyle" : 1,
       "sourceMapStyle" : 0,
@@ -2204,13 +2130,11 @@
     "languageDefaultsSASS" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.css",
-      "autoOutputPathRelativePath" : "..\/..\/",
+      "autoOutputPathRelativePath" : "..\/css",
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
-      "autoOutputPathStyle" : 2,
-      "compilerType" : 0,
+      "autoOutputPathStyle" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 0,
       "purgeCSSStyle" : 0,
@@ -2327,6 +2251,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
